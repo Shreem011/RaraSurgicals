@@ -17,14 +17,14 @@ const Header = () => {
             <div className="leading-[20px]">
               <h2 className="text-xl text-smallTextColor font-[700]">RARA</h2>
               <p className="text-smallTextColor text-[14px] font-[500]">
-                Surgicals
+                Joint Surgicals
               </p>
             </div>
           </div>
           {/*==============end of logo============*/}
           {/*==============menu start============*/}
           <div className="menu">
-            <ul className="flex items-center gap-[10px]">
+            <ul className="flex items-center gap-[20px]">
               <li>
                 <a
                   href="#about"
@@ -33,7 +33,7 @@ const Header = () => {
                   About
                 </a>
               </li>
-              <li className="flex items-center gap-[10px]">
+              <li>
                 <a
                   href="#services"
                   className="text-[14px] font-bold text-gray[800px] "
@@ -41,23 +41,16 @@ const Header = () => {
                   Services
                 </a>
               </li>
-              <li className="flex items-center gap-[10px]">
+              <li>
                 <a
                   href="#products"
                   className="text-[14px] font-bold text-gray[800px] "
                 >
                   Products
                 </a>
-                <li className="flex items-center gap-[10px]">
-                  <a
-                    href="#gallery"
-                    className="text-[14px] font-bold text-gray[800px] "
-                  >
-                    Gallery
-                  </a>
-                </li>
               </li>
-              <li className="flex items-center gap-[10px]">
+
+              <li>
                 <a
                   href="#contact"
                   className="text-[14px] font-bold text-gray[800px] "
@@ -76,7 +69,7 @@ const Header = () => {
               className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid
             border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[600] ease-in duration-300"
             >
-              <i class="ri-send-plane-fill">Lets's Talk</i>
+              <i class="ri-phone-line">01-4356025</i>
             </button>
 
             <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
