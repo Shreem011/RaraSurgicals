@@ -8,6 +8,7 @@ import Services from "./components/UI/Services";
 import Contact from "./components/UI/Contact";
 
 import "./App.css";
+import Portfolio from "./components/UI/Portfolio";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Portfolio />
         <Contact />
       </main>
 

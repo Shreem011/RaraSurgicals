@@ -1,8 +1,47 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 const Header = () => {
+  const headerRef = useRef(null);
+  const menuRef = useRef(null);
+  const stickyHeaderFunc = () => {
+    window.addEventListener("scroll", () => {
+      if (
+        document.body.scrollTop > 80 ||
+        document.documentElement.scrollTop > 80
+      ) {
+        headerRef.current.classList.add("sticky_header");
+      } else {
+        headerRef.current.classList.remove("sticky_header");
+      }
+    });
+  };
+
+  useEffect(() => {
+    stickyHeaderFunc();
+
+    return window.addEventListener("scroll", stickyHeaderFunc);
+  }, []);
+
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+
+  //   const targetAttr = e.target.getAttribute("href");
+  //   const location = document.querySelector(targetAttr).offsetTop;
+
+  //   window.scrollTo({
+  //     top: location - 80,
+  //     behavior: "smooth",
+  //     left: 0,
+  //   });
+  // };
+
+  const toggleMenu = () => menuRef.current.classList.toggle("show_menu");
+
   return (
-    <header className="w-full h-[80px] leading-[80px] flex items-center">
+    <header
+      ref={headerRef}
+      className="w-full h-[80px] leading-[80px] flex items-center"
+    >
       <div className="container">
         <div className="flex items-center justify-between">
           {/*==============logo============*/}
@@ -23,10 +62,11 @@ const Header = () => {
           </div>
           {/*==============end of logo============*/}
           {/*==============menu start============*/}
-          <div className="menu">
+          <div className="menu" ref={menuRef} onClick={toggleMenu}>
             <ul className="flex items-center gap-[20px]">
               <li>
                 <a
+                  // onClick={handleClick}
                   href="#about"
                   className="text-[14px] font-bold text-gray[800px] "
                 >
@@ -35,6 +75,7 @@ const Header = () => {
               </li>
               <li>
                 <a
+                  // onClick={handleClick}
                   href="#services"
                   className="text-[14px] font-bold text-gray[800px] "
                 >
@@ -43,7 +84,8 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#products"
+                  // onClick={handleClick}
+                  href="#portfolio"
                   className="text-[14px] font-bold text-gray[800px] "
                 >
                   Products
@@ -52,6 +94,7 @@ const Header = () => {
 
               <li>
                 <a
+                  // onClick={handleClick}
                   href="#contact"
                   className="text-[14px] font-bold text-gray[800px] "
                 >
@@ -71,8 +114,17 @@ const Header = () => {
             >
               <i class="ri-phone-line">01-4356025</i>
             </button>
+            {/* <button
+              className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid
+            border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[600] ease-in duration-300"
+            >
+              <i class="ri-mail-fill">abc@gmail.com</i>
+            </button> */}
 
-            <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
+            <span
+              onClick={toggleMenu}
+              className="text-2xl text-smallTextColor md:hidden cursor-pointer"
+            >
               <i class="ri-menu-line"></i>
             </span>
           </div>
