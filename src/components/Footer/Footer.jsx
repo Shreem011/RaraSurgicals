@@ -10,7 +10,7 @@ const Footer = () => {
             <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]">
               Need your Supplies ?
             </h2>
-            <a href="#contact">
+            <a href="https://www.gmail.com">
               <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
                 <i class="ri-mail-line">rarajointsurgical23@gmail.com</i>
               </button>
@@ -30,7 +30,7 @@ const Footer = () => {
 
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="#facebook"
+                  href="https://www.facebook.com"
                   className="text-gray-300 font-[500] text-[18px]"
                 >
                   <i class="ri-facebook-circle-fill"></i>

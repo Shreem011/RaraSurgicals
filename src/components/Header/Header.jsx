@@ -112,7 +112,9 @@ const Header = () => {
               className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid
             border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[600] ease-in duration-300"
             >
-              <i class="ri-phone-line">01-4356025</i>
+              <i href="tel:01-4356025" class="ri-phone-line">
+                01-4356025
+              </i>
             </button>
             {/* <button
               className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid
