@@ -13,8 +13,9 @@ const Services = () => {
             Our Services
           </h2>
           <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
-            lorem ipsum dolor sit amet, consectet adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Our supplies are available at our website. We have become the
+            trusted supplier for thousands of customers. Give us chance to serve
+            you as well.
           </p>
         </div>
 
@@ -43,9 +44,8 @@ const Services = () => {
                           Pharmacy Supplies
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Pharmaceutical Products are available at the
+                          reasonable price.
                         </p>
                       </div>
                     </div>
@@ -78,9 +78,8 @@ const Services = () => {
                           Laboratory Supplies
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Laboratory Supplies have been provided by various
+                          companies and is the trusted source.
                         </p>
                       </div>
                     </div>
@@ -113,9 +112,8 @@ const Services = () => {
                           Retailer Supplies
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          We also do supply the retailer at our most affordable
+                          prices.
                         </p>
                       </div>
                     </div>
@@ -148,9 +146,8 @@ const Services = () => {
                           Educational Supplies
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500]">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Tremendous quantities of educational supplies help us
+                          provide better services to the same.
                         </p>
                       </div>
                     </div>
