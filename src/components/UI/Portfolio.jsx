@@ -19,19 +19,24 @@ const Portfolio = () => {
   };
 
   useEffect(() => {
-    if (selectTab === "all") {
+    if (selectTab === "All") {
       setPortfolios(data);
     }
 
-    if (selectTab === "web-design") {
-      const filteredData = data.filter(
-        (item) => item.category === "Web Design"
-      );
+    if (selectTab === "Himalaya") {
+      const filteredData = data.filter((item) => item.category === "Himalaya");
       setPortfolios(filteredData);
     }
 
-    if (selectTab === "ux-design") {
-      const filteredData = data.filter((item) => item.category === "Ux");
+    if (selectTab === "Romsom") {
+      const filteredData = data.filter((item) => item.category === "Romsom");
+      setPortfolios(filteredData);
+    }
+
+    if (selectTab === "Miscellaneous") {
+      const filteredData = data.filter(
+        (item) => item.category === "Miscellaneous"
+      );
       setPortfolios(filteredData);
     }
   }, [selectTab]);
@@ -48,25 +53,32 @@ const Portfolio = () => {
 
           <div className="flex gap-3">
             <button
-              onClick={() => setSelectTab("all")}
+              onClick={() => setSelectTab("All")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4
                          rounded-[8px]"
             >
-              ProductType-1
+              All
             </button>
             <button
-              onClick={() => setSelectTab("web-design")}
+              onClick={() => setSelectTab("Himalaya")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4
                          rounded-[8px]"
             >
-              ProductType-2
+              Himalaya
             </button>
             <button
-              onClick={() => setSelectTab("ux-design")}
+              onClick={() => setSelectTab("Romsom")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4
                          rounded-[8px]"
             >
-              ProductType-3
+              Romsom
+            </button>
+            <button
+              onClick={() => setSelectTab("Miscellaneous")}
+              className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4
+                         rounded-[8px]"
+            >
+              Miscellaneous
             </button>
           </div>
         </div>

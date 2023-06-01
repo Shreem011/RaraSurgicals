@@ -22,7 +22,7 @@ const portfolios = [
   {
     id: "01",
     imgUrl: img1,
-    category: "Web Design",
+    category: "Himalaya",
     title: "Himalaya Diaper S9 tape",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -32,7 +32,7 @@ const portfolios = [
   {
     id: "02",
     imgUrl: img2,
-    category: "Ux",
+    category: "Himalaya",
     title: "Himalaya Wipes 72s",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -42,7 +42,7 @@ const portfolios = [
   {
     id: "03",
     imgUrl: img3,
-    category: "Ux",
+    category: "Miscellaneous",
     title: "Bubble CPAP circuit set",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -52,7 +52,7 @@ const portfolios = [
   {
     id: "04",
     imgUrl: img4,
-    category: "Web Design",
+    category: "Miscellaneous",
     title: "Life line Syringe",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -62,7 +62,7 @@ const portfolios = [
   {
     id: "05",
     imgUrl: img5,
-    category: "Web Design",
+    category: "Himalaya",
     title: "Himalaya Baby Cream",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -73,7 +73,7 @@ const portfolios = [
   {
     id: "06",
     imgUrl: img6,
-    category: "Ux",
+    category: "Himalaya",
     title: "Himalaya Baby Shampoo",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -83,7 +83,7 @@ const portfolios = [
   {
     id: "07",
     imgUrl: img7,
-    category: "Web Design",
+    category: "Himalaya",
     title: "Himalaya Baby Powder",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -93,7 +93,7 @@ const portfolios = [
   {
     id: "08",
     imgUrl: img8,
-    category: "Web Design",
+    category: "Miscellaneous",
     title: "Surutrek Edt Tube",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -103,7 +103,7 @@ const portfolios = [
   {
     id: "09",
     imgUrl: img9,
-    category: "Ux",
+    category: "Miscellaneous",
     title: "Guage Swab",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -113,7 +113,7 @@ const portfolios = [
   {
     id: "10",
     imgUrl: img10,
-    category: "Ux",
+    category: "Romsom",
     title: "Romsoms vaccu suck",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -123,7 +123,7 @@ const portfolios = [
   {
     id: "11",
     imgUrl: img11,
-    category: "Web Design",
+    category: "Romsom",
     title: "Romsoms under Matty pad",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -133,7 +133,7 @@ const portfolios = [
   {
     id: "12",
     imgUrl: img12,
-    category: "Web Design",
+    category: "Miscellaneous",
     title: "Commode Chair",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -143,7 +143,7 @@ const portfolios = [
   {
     id: "13",
     imgUrl: img13,
-    category: "Web Design",
+    category: "Miscellaneous",
     title: "Flamicrepe",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -153,7 +153,7 @@ const portfolios = [
   {
     id: "14",
     imgUrl: img14,
-    category: "ux",
+    category: "Romsom",
     title: "Romsoms Oxyset",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -163,7 +163,7 @@ const portfolios = [
   {
     id: "15",
     imgUrl: img15,
-    category: "ux",
+    category: "Miscellaneous",
     title: "Tissue paper roll",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -173,7 +173,7 @@ const portfolios = [
   {
     id: "16",
     imgUrl: img16,
-    category: "ux",
+    category: "Miscellaneous",
     title: "Adult diaper",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -183,7 +183,7 @@ const portfolios = [
   {
     id: "17",
     imgUrl: img17,
-    category: "ux",
+    category: "Miscellaneous",
     title: "Catheter kit",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -193,7 +193,7 @@ const portfolios = [
   {
     id: "18",
     imgUrl: img18,
-    category: "ux",
+    category: "Miscellaneous",
     title: "Mask",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -203,7 +203,7 @@ const portfolios = [
   {
     id: "19",
     imgUrl: img19,
-    category: "ux",
+    category: "Miscellaneous",
     title: "Gloves",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -213,7 +213,7 @@ const portfolios = [
   {
     id: "20",
     imgUrl: img20,
-    category: "ux",
+    category: "Romsom",
     title: "Romsom fliptap catheter mount",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
